@@ -24,6 +24,7 @@ const ChatWindow: React.FC = () => {
     const messagesEndRef = useRef<HTMLDivElement>(null);
 
     const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3003';
+    console.log("API Base URL:", import.meta.env.VITE_API_BASE_URL);
 
     // --- Auto-scroll Effect ---
     useEffect(() => {

@@ -15,7 +15,7 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-md dark:shadow-gray-800">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center max-w-6xl">
         <div className="text-2xl font-bold">
-          <span className="text-blue-500">Web</span>Devs.me
+          <span className="text-blue-500">Peter</span>Bot.Dev
         </div>
         
         <nav>

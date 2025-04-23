@@ -7,6 +7,6 @@ import AdminPage from './pages/AdminPage.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <AdminPage/>
+    <App/>
   </StrictMode>,
 )
